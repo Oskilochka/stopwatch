@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
